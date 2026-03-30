@@ -1,9 +1,5 @@
 # RCE Bug Bounty Reports
 
-* [Protocol Smuggling / CRLF Injection via Gopher Protocol allows Arbitrary Command Injection](https://hackerone.com/reports/3477023) - *HackerOne*
-* [SSL options ISSUERCERT, EC_CURVES and CRLFILE silently ignored by non-OpenSSL backends](https://hackerone.com/reports/3516974) - *HackerOne*
-* [Memory leak in Node.js HTTP/2 server via WINDOW_UPDATE on stream 0 leads to resource exhaustion](https://hackerone.com/reports/3531737) - *HackerOne*
-* [SSTI leads to Command injection](https://hackerone.com/reports/3584149) - *HackerOne*
 * [GitHub RCE Writeup](https://0day.click/recipe/2014-02-22-github) - *PentesterLand (Public Blogs)*
 * [Flickr API Explorer – Force users to execute any API request.](https://buer.haus/2015/02/03/flickr-api-explorer-force-users-to-execute-any-api-request) - *PentesterLand (Public Blogs)*
 * [[manager.paypal.com] Remote Code Execution Vulnerability](http://artsploit.blogspot.com/2016/01/paypal-rce.html) - *PentesterLand (Public Blogs)*
@@ -503,6 +499,7 @@
 * [CVE-2023-33733 RCE via HTMLi in reportlab](https://github.com/Sudistark/BB-Writeups/blob/main/2023/CVE-2023-33733-rce-via-htmli-in-reportlab.md) - *PentesterLand (Public Blogs)*
 * [Not Your Stdout Bug - RCE in Cosmos SDK](https://maxwelldulin.com/BlogPost/stdout-cosmos-sdk-rce) - *PentesterLand (Public Blogs)*
 * [CVE-2023-4473 & CVE-2023-4474 - Authentication bypass and multiple blind OS command injection vulnerabilities in Zyxel’s NAS326 devices](https://bugprove.com/knowledge-hub/cve-2023-4473-and-cve-2023-4474-authentication-bypass-and-multiple-blind-os-command-injection-vulnerabilities-in-zyxel-s-nas-326-devices) - *PentesterLand (Public Blogs)*
+* [CVE-2023-37927 & CVE-2023-37928 - Multiple post-auth blind OS command and Python code injection vulnerabilities in Zyxel’s NAS326 devices](https://bugprove.com/knowledge-hub/cve-2023-37927-and-cve-2023-37928-multiple-post-auth-blind-os-command-and-python-code-injection-vulnerabilities-in-zyxel-s-nas-326-devices) - *PentesterLand (Public Blogs)*
 * [Achieving Remote Code Execution in Steam: a journey into the Remote Play protocol](https://blog.thalium.re/posts/achieving-remote-code-execution-in-steam-remote-play) - *PentesterLand (Public Blogs)*
 * [SonicWall WXA – Authentication Bypass and Remote Code Execution Vulnerability](https://www.praetorian.com/blog/sonicwall-wxa-authentication-bypass-and-rce-vulnerability) - *PentesterLand (Public Blogs)*
 * [3 Symfony (RCE): A Peek Behind the Curtain](https://medium.com/@bxrowski0x/3-symfony-rce-a-peek-behind-the-curtain-83da5433e149) - *PentesterLand (Public Blogs)*
@@ -582,3 +579,7 @@
 * [Data Theft in Salesforce: Manipulating Public Links](https://www.varonis.com/blog/manipulating-salesforce-public-links) - *PentesterLand (Public Blogs)*
 * [[2,500$ Bug Bounty Write-Up] Remote Code Execution (RCE) via unclaimed Node package](https://medium.com/@p0lyxena/2-500-bug-bounty-write-up-remote-code-execution-rce-via-unclaimed-node-package-6b9108d10643) - *PentesterLand (Public Blogs)*
 * [Vulnerabilities in Open Source C2 Frameworks](https://blog.includesecurity.com/2024/09/vulnerabilities-in-open-source-c2-frameworks) - *PentesterLand (Public Blogs)*
+* [Protocol Smuggling / CRLF Injection via Gopher Protocol allows Arbitrary Command Injection](https://hackerone.com/reports/3477023) - *HackerOne*
+* [SSL options ISSUERCERT, EC_CURVES and CRLFILE silently ignored by non-OpenSSL backends](https://hackerone.com/reports/3516974) - *HackerOne*
+* [Memory leak in Node.js HTTP/2 server via WINDOW_UPDATE on stream 0 leads to resource exhaustion](https://hackerone.com/reports/3531737) - *HackerOne*
+* [SSTI leads to Command injection](https://hackerone.com/reports/3584149) - *HackerOne*

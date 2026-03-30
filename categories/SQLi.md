@@ -1,6 +1,5 @@
 # SQLi Bug Bounty Reports
 
-* [SQL Injection vulnerability found on ibm.com endpoint](https://hackerone.com/reports/3578842) - *HackerOne*
 * [SQL injections in Nokia sites.](https://josipfranjkovic.blogspot.com/2013/07/sql-injections-in-nokia-sites.html) - *PentesterLand (Public Blogs)*
 * [Tesla Motors blind SQL injection](https://bitquark.co.uk/blog/2014/02/23/tesla_motors_blind_sql_injection) - *PentesterLand (Public Blogs)*
 * [Step-by-step: exploiting SQL injection(s) in Oculus' website.](https://josipfranjkovic.blogspot.com/2014/09/step-by-step-exploiting-sql-injection.html) - *PentesterLand (Public Blogs)*
@@ -137,3 +136,4 @@
 * [World of SELECT-only PostgreSQL Injections: (Ab)using the filesystem](http://phrack.org/issues/71/8.html#article) - *PentesterLand (Public Blogs)*
 * [Bypassing airport security via SQL injection](https://ian.sh/tsa) - *PentesterLand (Public Blogs)*
 * [Breaking Down Barriers: Exploiting Pre-Auth SQL Injection In WhatsUp Gold - CVE-2024-6670](https://summoning.team/blog/progress-whatsup-gold-sqli-cve-2024-6670) - *PentesterLand (Public Blogs)*
+* [SQL Injection vulnerability found on ibm.com endpoint](https://hackerone.com/reports/3578842) - *HackerOne*

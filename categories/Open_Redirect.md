@@ -1,7 +1,5 @@
 # Open Redirect Bug Bounty Reports
 
-* [Open Redirect on lovable.dev via redirect parameter leads to phishing attacks](https://hackerone.com/reports/3581815) - *HackerOne*
-* [Bypass of Open Redirect Fix on lovable.dev via /..// Path Traversal in redirect parameter](https://hackerone.com/reports/3599248) - *HackerOne*
 * [Multiple Open URL Redirection Vulnerability on Facebook worth $1500](https://arulkumar.in/multiple-open-url-redirection-vulnerability-in-facebook-worth-1500) - *PentesterLand (Public Blogs)*
 * [How I discovered a 1000$ open redirect in Facebook](https://www.yassineaboukir.com/blog/how-I-discovered-a-1000$-open-redirect-in-facebook) - *PentesterLand (Public Blogs)*
 * [Open Redirect in Linkedin and Yahoo](https://medium.com/@r0t1v/open-redirect-in-linkedin-and-yahoo-a3ffd2a9cc48) - *PentesterLand (Public Blogs)*
@@ -61,3 +59,5 @@
 * [Stored Iframe Injection & Permanent Open Redirection - Zero Day](https://shahjerry33.medium.com/stored-iframe-injection-permanent-open-redirection-zero-day-ce7cd15903ac) - *PentesterLand (Public Blogs)*
 * [NCIIPC VDP Bug : Open Redirection Vulnerability In Govt. Site !!](https://medium.com/@p.ra.dee.p_0xx01/nciipc-vdp-bug-open-redirection-vulnerability-in-govt-site-b048860f5d2d) - *PentesterLand (Public Blogs)*
 * [Story of a 1000$ Open Redirect](https://infosecwriteups.com/story-of-a-1000-open-redirect-1405fb8a0e7a) - *PentesterLand (Public Blogs)*
+* [Open Redirect on lovable.dev via redirect parameter leads to phishing attacks](https://hackerone.com/reports/3581815) - *HackerOne*
+* [Bypass of Open Redirect Fix on lovable.dev via /..// Path Traversal in redirect parameter](https://hackerone.com/reports/3599248) - *HackerOne*
