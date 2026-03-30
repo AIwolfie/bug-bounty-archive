@@ -1,5 +1,9 @@
 # RCE Bug Bounty Reports
 
+* [Protocol Smuggling / CRLF Injection via Gopher Protocol allows Arbitrary Command Injection](https://hackerone.com/reports/3477023) - *HackerOne*
+* [SSL options ISSUERCERT, EC_CURVES and CRLFILE silently ignored by non-OpenSSL backends](https://hackerone.com/reports/3516974) - *HackerOne*
+* [Memory leak in Node.js HTTP/2 server via WINDOW_UPDATE on stream 0 leads to resource exhaustion](https://hackerone.com/reports/3531737) - *HackerOne*
+* [SSTI leads to Command injection](https://hackerone.com/reports/3584149) - *HackerOne*
 * [GitHub RCE Writeup](https://0day.click/recipe/2014-02-22-github) - *PentesterLand (Public Blogs)*
 * [Flickr API Explorer – Force users to execute any API request.](https://buer.haus/2015/02/03/flickr-api-explorer-force-users-to-execute-any-api-request) - *PentesterLand (Public Blogs)*
 * [[manager.paypal.com] Remote Code Execution Vulnerability](http://artsploit.blogspot.com/2016/01/paypal-rce.html) - *PentesterLand (Public Blogs)*

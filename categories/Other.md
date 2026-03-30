@@ -1,5 +1,69 @@
 # Other Bug Bounty Reports
 
+* [libcurl WebSocket handshake accepts any Sec-WebSocket-Accept](https://hackerone.com/reports/3474865) - *HackerOne*
+* [Public-suffix cookie injection when libpsl is disabled](https://hackerone.com/reports/3475472) - *HackerOne*
+* [HAProxy Connection Reuse leads to IP Spoofing and mTLS Context Smuggling](https://hackerone.com/reports/3475613) - *HackerOne*
+* [Session Cookie Leakage via Static Header Field in WebViewerFragment](https://hackerone.com/reports/3475626) - *HackerOne*
+* [CVE-2025-15079: libssh global knownhost override](https://hackerone.com/reports/3477116) - *HackerOne*
+* [Security hardening: missing integer overflow check in curl_load_library()](https://hackerone.com/reports/3479019) - *HackerOne*
+* [HTTP/3 Protocol Smuggling and Header Injection via CRLF in QPACK value conversion](https://hackerone.com/reports/3479203) - *HackerOne*
+* [CRLF Injection / Protocol Smuggling in libcurl via CURLOPT_USERNAME (IMAP)](https://hackerone.com/reports/3479984) - *HackerOne*
+* [Heap Buffer Over-read in lib/http2.c (on_header) handling PUSH_PROMISE frames](https://hackerone.com/reports/3480078) - *HackerOne*
+* [Cross‑Layer State Confusion in libcurl: Credential & Key‑Material Persistence Across Redirect / Connection Reuse Boundaries](https://hackerone.com/reports/3480641) - *HackerOne*
+* [Telnet Suboption Buffer Pointer Underflow in lib/telnet.c leads to Out-of-Bounds Read](https://hackerone.com/reports/3480712) - *HackerOne*
+* [Proxy-Authorization header is leaked to origin server after redirect from proxied to direct connection](https://hackerone.com/reports/3480713) - *HackerOne*
+* [SMTP CRLF Injection & Protocol Desynchronization in libcurl](https://hackerone.com/reports/3481595) - *HackerOne*
+* [HTTP/2 and HTTP/3 Header Injection in curl](https://hackerone.com/reports/3481849) - *HackerOne*
+* [A quiet New Year wish for security researchers](https://hackerone.com/reports/3483225) - *HackerOne*
+* [MQTT Protocol Violation & Integer Overflow in libcurl](https://hackerone.com/reports/3484319) - *HackerOne*
+* [CRLF Injection in Gopher Protocol (`lib/gopher.c`)](https://hackerone.com/reports/3484506) - *HackerOne*
+* [State Isolation Failure in Multiplexed Connections (Shared Auth Context)](https://hackerone.com/reports/3487952) - *HackerOne*
+* [MQTT: Missing upper bound on incoming Remaining Length allows server-controlled long wait](https://hackerone.com/reports/3488278) - *HackerOne*
+* [Stack Buffer Overflow in mprintf.c formatting function (fallback path)](https://hackerone.com/reports/3493602) - *HackerOne*
+* [inconsistently Rejection Logic in file:// URLs with Authority](https://hackerone.com/reports/3494098) - *HackerOne*
+* [CRLF Injection in HTTP header values allows arbitrary header injection](https://hackerone.com/reports/3505557) - *HackerOne*
+* [Heap Out-of-Bounds Read in lib/http2.c via Malformed PUSH_PROMISE Headers](https://hackerone.com/reports/3506159) - *HackerOne*
+* [Missing Access Control in MigrationFile allows attacker to upload files to any Migration](https://hackerone.com/reports/3506183) - *HackerOne*
+* [Integer-underflow leads to heap over-read in TFTP implementation](https://hackerone.com/reports/3508321) - *HackerOne*
+* [Use-After-Free in curl_easy_nextheader when reusing header handle across requests](https://hackerone.com/reports/3508701) - *HackerOne*
+* [Digest Authentication Header Injection](https://hackerone.com/reports/3508799) - *HackerOne*
+* [IMAP Protocol Desynchronization and Response Smuggling via Naive Literal Parsing](https://hackerone.com/reports/3509396) - *HackerOne*
+* [Directory listing vulnerability is disclosing names and emails, widespread (thousands of records, publicly accessible without auth)](https://hackerone.com/reports/3509437) - *HackerOne*
+* [Password Reuse Vulnerability on AWS Sign-in Page via Password Reset Flow leads to Security Policy Violation](https://hackerone.com/reports/3514122) - *HackerOne*
+* [libcurl: Improper Authentication State Management on Cross-Protocol Redirects](https://hackerone.com/reports/3514263) - *HackerOne*
+* [Cookie Max-Age Integer Overflow Vulnerability](https://hackerone.com/reports/3516186) - *HackerOne*
+* [Cookie Replacement Use-After-Free Vulnerability](https://hackerone.com/reports/3516202) - *HackerOne*
+* [Cross‑origin cookies leak and injection risk when using a custom Host header](https://hackerone.com/reports/3516878) - *HackerOne*
+* [PATs without the required scope can leak issues](https://hackerone.com/reports/3522254) - *HackerOne*
+* [Integer Underflow in src/var.c](https://hackerone.com/reports/3523349) - *HackerOne*
+* [wcurl Argument Injection via Unquoted Variable](https://hackerone.com/reports/3523953) - *HackerOne*
+* [Add labels to arbitrary issues/prs & compromise github actions label checks](https://hackerone.com/reports/3527771) - *HackerOne*
+* [MQTT Protocol Packet Injection via Unchecked CONNACK Remaining Length](https://hackerone.com/reports/3531216) - *HackerOne*
+* [Timing side-channel in HMAC verification via memcmp() in crypto_hmac.cc leads to potential MAC forgery](https://hackerone.com/reports/3533945) - *HackerOne*
+* [Assertion error in node_url.cc via malformed URL format leads to Node.js crash](https://hackerone.com/reports/3546390) - *HackerOne*
+* [HTML Injection in DAST Trial Request Form Confirmation Email – PortSwigger](https://hackerone.com/reports/3556892) - *HackerOne*
+* [Integer Overflow in curl_multi_get_handles() Leading to Heap Buffer Overflow](https://hackerone.com/reports/3575245) - *HackerOne*
+* [RTSP RTP Interleaved Parser Assertion Failure (Zero-Length RTP Payload)](https://hackerone.com/reports/3575250) - *HackerOne*
+* [Curl Telnet Handler Buffer Overflow](https://hackerone.com/reports/3575475) - *HackerOne*
+* [CVE-2026-3783: token leak with redirect and netrc](https://hackerone.com/reports/3583983) - *HackerOne*
+* [LM Challenge-Response Hash Always Sent in SMB Authentication](https://hackerone.com/reports/3584491) - *HackerOne*
+* [In curl's SASL OAUTHBEARER authentication, including the SOH character (0x01) in the username corrupts the message structure.](https://hackerone.com/reports/3584865) - *HackerOne*
+* [CVE-2026-3784: wrong proxy connection reuse with credentials](https://hackerone.com/reports/3584903) - *HackerOne*
+* [CVE-2026-3805: use after free in SMB connection reuse](https://hackerone.com/reports/3591944) - *HackerOne*
+* [Connection Reuse Ignores OAuth Bearer Token Mismatch](https://hackerone.com/reports/3595753) - *HackerOne*
+* [CURLOPT_UNRESTRICTED_AUTH Dangerous Default Documentation Gap](https://hackerone.com/reports/3595764) - *HackerOne*
+* [urlapi: off-by-one in custom scheme validation skips last character](https://hackerone.com/reports/3598358) - *HackerOne*
+* [Curl_compareheader() fails to match multi-value HTTP headers](https://hackerone.com/reports/3598444) - *HackerOne*
+* [SMB READ_ANDX DataOffset not validated](https://hackerone.com/reports/3603300) - *HackerOne*
+* [Access to Deactivated LinkedIn Company Pages via Competitor Analytics API](https://hackerone.com/reports/3604288) - *HackerOne*
+* [Unescaped username in SASL DIGEST-MD5 response allows injection](https://hackerone.com/reports/3608522) - *HackerOne*
+* [HSTS accepted from HTTP origin behind HTTPS proxy](https://hackerone.com/reports/3609505) - *HackerOne*
+* [Bearer Token Leaked to Attacker via .netrc Despite CVE-2026-3783 Fix](https://hackerone.com/reports/3611825) - *HackerOne*
+* [Function `do_pubkey()` can have out-of-bound read issue](https://hackerone.com/reports/3617719) - *HackerOne*
+* [HTTP/1.1 Response Desynchronization via conflicting CL/TE headers in Proxy CONNECT](https://hackerone.com/reports/3623064) - *HackerOne*
+* [Security Vulnerability Report: Protocol Injection via Programmatic Options](https://hackerone.com/reports/3627638) - *HackerOne*
+* [HTTP/2 server push accepts a non-authoritative :scheme=https over cleartext h2c, enabling HTTPS cache-key poisoning](https://hackerone.com/reports/3630310) - *HackerOne*
+* [CRLF Injection in HAProxy PROXY Protocol via CURLOPT_HAPROXY_CLIENT_IP allows IP spoofing and protocol injection](https://hackerone.com/reports/3633534) - *HackerOne*
 * [Hacking Facebook with FBML and DOM](https://maustin.net/articles/2010-07/facebook_fbml_xss) - *PentesterLand (Public Blogs)*
 * [Facebook FBML DOM Traversal (Information Disclosure)](https://maustin.net/articles/2011-08/FBML_dom_traversal) - *PentesterLand (Public Blogs)*
 * [Compromising HP SAN appliances](https://www.agarri.fr/blog/archives/2012/02/17/compromising_hp_san_appliances/index.html) - *PentesterLand (Public Blogs)*

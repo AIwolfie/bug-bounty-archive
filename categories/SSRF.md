@@ -1,5 +1,7 @@
 # SSRF Bug Bounty Reports
 
+* [HTTP Request Smuggling and SSRF via CRLF Injection in Curl_add_custom_headers](https://hackerone.com/reports/3484431) - *HackerOne*
+* [Gopher Protocol Command Injection (SSRF Smuggling)](https://hackerone.com/reports/3508785) - *HackerOne*
 * [ESEA Server-Side Request Forgery and Querying AWS Meta Data](https://buer.haus/2016/04/18/esea-server-side-request-forgery-and-querying-aws-meta-data) - *PentesterLand (Public Blogs)*
 * [Airbnb – Chaining Third-Party Open Redirect into Server-Side Request Forgery (SSRF) via LivePerson Chat](https://buer.haus/2017/03/09/airbnb-chaining-third-party-open-redirect-into-server-side-request-forgery-ssrf-via-liveperson-chat) - *PentesterLand (Public Blogs)*
 * [Pivoting from blind SSRF to RCE with HashiCorp Consul](http://www.kernelpicnic.net/2017/05/29/Pivoting-from-blind-SSRF-to-RCE-with-Hashicorp-Consul.html) - *PentesterLand (Public Blogs)*

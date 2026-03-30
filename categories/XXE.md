@@ -1,0 +1,2 @@
+# XXE Bug Bounty Reports
+

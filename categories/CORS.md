@@ -1,0 +1,2 @@
+# CORS Bug Bounty Reports
+
